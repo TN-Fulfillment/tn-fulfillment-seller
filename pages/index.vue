@@ -112,5 +112,4 @@ const changeLang = async (lang) => {
 
   <Button>Button</Button>
   {{ locale }}
-  <SharedSidebar />
 </template>
