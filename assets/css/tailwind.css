@@ -42,165 +42,100 @@
   --color-sidebar-ring: var(--sidebar-ring);
 }
 
-/* :root {
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.13 0.028 261.692);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.13 0.028 261.692);
-  --primary: oklch(0.21 0.034 264.665);
-  --primary-foreground: oklch(0.985 0.002 247.839);
-  --secondary: oklch(0.967 0.003 264.542);
-  --secondary-foreground: oklch(0.21 0.034 264.665);
-  --muted: oklch(0.967 0.003 264.542);
-  --muted-foreground: oklch(0.551 0.027 264.364);
-  --accent: oklch(0.967 0.003 264.542);
-  --accent-foreground: oklch(0.21 0.034 264.665);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.577 0.245 27.325);
-  --border: oklch(0.928 0.006 264.531);
-  --input: oklch(0.928 0.006 264.531);
-  --ring: oklch(0.707 0.022 261.325);
-  --chart-1: oklch(0.646 0.222 41.116);
-  --chart-2: oklch(0.6 0.118 184.704);
-  --chart-3: oklch(0.398 0.07 227.392);
-  --chart-4: oklch(0.828 0.189 84.429);
-  --chart-5: oklch(0.769 0.188 70.08);
-  --radius: 0.625rem;
-  --sidebar: oklch(0.985 0.002 247.839);
-  --sidebar-foreground: oklch(0.13 0.028 261.692);
-  --sidebar-primary: oklch(0.21 0.034 264.665);
-  --sidebar-primary-foreground: oklch(0.985 0.002 247.839);
-  --sidebar-accent: oklch(0.967 0.003 264.542);
-  --sidebar-accent-foreground: oklch(0.21 0.034 264.665);
-  --sidebar-border: oklch(0.928 0.006 264.531);
-  --sidebar-ring: oklch(0.707 0.022 261.325);
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.13 0.028 261.692);
-}
 
-.dark {
-  --background: oklch(0.13 0.028 261.692);
-  --foreground: oklch(0.985 0.002 247.839);
-  --card: oklch(0.13 0.028 261.692);
-  --card-foreground: oklch(0.985 0.002 247.839);
-  --popover: oklch(0.13 0.028 261.692);
-  --popover-foreground: oklch(0.985 0.002 247.839);
-  --primary: oklch(0.985 0.002 247.839);
-  --primary-foreground: oklch(0.21 0.034 264.665);
-  --secondary: oklch(0.278 0.033 256.848);
-  --secondary-foreground: oklch(0.985 0.002 247.839);
-  --muted: oklch(0.278 0.033 256.848);
-  --muted-foreground: oklch(0.707 0.022 261.325);
-  --accent: oklch(0.278 0.033 256.848);
-  --accent-foreground: oklch(0.985 0.002 247.839);
-  --destructive: oklch(0.396 0.141 25.723);
-  --destructive-foreground: oklch(0.637 0.237 25.331);
-  --border: oklch(0.278 0.033 256.848);
-  --input: oklch(0.278 0.033 256.848);
-  --ring: oklch(0.446 0.03 256.802);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.21 0.034 264.665);
-  --sidebar-foreground: oklch(0.985 0.002 247.839);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0.002 247.839);
-  --sidebar-accent: oklch(0.278 0.033 256.848);
-  --sidebar-accent-foreground: oklch(0.985 0.002 247.839);
-  --sidebar-border: oklch(0.278 0.033 256.848);
-  --sidebar-ring: oklch(0.446 0.03 256.802);
-} */
 
 :root {
-  --background: oklch(0.99 0 0);
-  --foreground: oklch(0.15 0.02 265);
+  /* Light Mode - Hồng Cam Theme */
+  --background: oklch(1 0 0); /* #FFFFFF */
+  --foreground: oklch(0.15 0.02 265); /* #1A1A1A */
 
-  --primary: oklch(0.57 0.1 246);
-  --primary-foreground: oklch(0.99 0.002 265);
+  --primary: oklch(0.7 0.22 20); /* #FF6B6B */
+  --primary-foreground: oklch(1 0 0); /* #FFFFFF */
 
-  --secondary: oklch(0.85 0.01 265);
-  --secondary-foreground: oklch(0.15 0.02 265);
+  --secondary: oklch(0.92 0.08 45); /* #FFE0B2 */
+  --secondary-foreground: oklch(0.15 0.02 265); /* #1A1A1A */
 
-  --accent: oklch(0.92 0.01 265);
-  --accent-foreground: oklch(0.15 0.02 265);
+  --accent: oklch(0.91 0.09 15); /* #FFCDD2 */
+  --accent-foreground: oklch(0.15 0.02 265); /* #1A1A1A */
 
-  --muted: oklch(0.95 0.005 265);
-  --muted-foreground: oklch(0.4 0.02 265);
+  --muted: oklch(0.97 0.01 265); /* #F8F9FA */
+  --muted-foreground: oklch(0.5 0.02 265); /* #6C757D */
 
-  --destructive: oklch(0.6 0.25 25);
-  --destructive-foreground: oklch(1 0 0);
+  --destructive: oklch(0.6 0.25 25); /* #DC3545 */
+  --destructive-foreground: oklch(1 0 0); /* #FFFFFF */
 
-  --border: oklch(0.9 0.01 265);
-  --input: oklch(0.9 0.01 265);
-  --ring: oklch(0.6 0.02 265);
+  --border: oklch(0.93 0.01 265); /* #E9ECEF */
+  --input: oklch(0.96 0.01 265); /* #F5F5F5 */
+  --ring: oklch(0.7 0.22 20); /* #FF6B6B */
 
-  --card: var(--background);
-  --card-foreground: var(--foreground);
-  --popover: var(--background);
-  --popover-foreground: var(--foreground);
+  --card: oklch(1 0 0); /* #FFFFFF */
+  --card-foreground: oklch(0.15 0.02 265); /* #1A1A1A */
+  --popover: oklch(1 0 0); /* #FFFFFF */
+  --popover-foreground: oklch(0.15 0.02 265); /* #1A1A1A */
 
-  --chart-1: oklch(0.5 0.1 265);
-  --chart-2: oklch(0.6 0.1 180);
-  --chart-3: oklch(0.4 0.1 250);
-  --chart-4: oklch(0.7 0.15 90);
-  --chart-5: oklch(0.6 0.15 70);
+  /* Chart colors với theme hồng cam */
+  --chart-1: oklch(0.7 0.22 20); /* #FF6B6B */
+  --chart-2: oklch(0.75 0.18 40); /* #FFB74D */
+  --chart-3: oklch(0.73 0.15 10); /* #FF8A95 */
+  --chart-4: oklch(0.85 0.15 50); /* #FFCC80 */
+  --chart-5: oklch(0.8 0.12 30); /* #FFAB91 */
 
-  --sidebar: oklch(0.98 0 0);
-  --sidebar-foreground: oklch(0.15 0.02 265);
-  --sidebar-primary: var(--primary);
-  --sidebar-primary-foreground: var(--primary-foreground);
-  --sidebar-accent: var(--accent);
-  --sidebar-accent-foreground: var(--accent-foreground);
-  --sidebar-border: var(--border);
-  --sidebar-ring: var(--ring);
+  --sidebar: oklch(0.99 0.01 20); /* #FFF5F5 */
+  --sidebar-foreground: oklch(0.15 0.02 265); /* #1A1A1A */
+  --sidebar-primary: oklch(0.7 0.22 20); /* #FF6B6B */
+  --sidebar-primary-foreground: oklch(1 0 0); /* #FFFFFF */
+  --sidebar-accent: oklch(0.91 0.09 15); /* #FFCDD2 */
+  --sidebar-accent-foreground: oklch(0.15 0.02 265); /* #1A1A1A */
+  --sidebar-border: oklch(0.93 0.01 265); /* #E9ECEF */
+  --sidebar-ring: oklch(0.7 0.22 20); /* #FF6B6B */
 
-  --radius: 0.625rem;
+  --radius: 0.75rem;
 }
 
 .dark {
-  --background: oklch(0.15 0.02 265);
-  --foreground: oklch(0.99 0.002 265);
+  /* Dark Mode - Hồng Cam Theme */
+  --background: oklch(0.13 0.02 265); /* #0D1117 */
+  --foreground: oklch(0.96 0.002 265); /* #F0F6FC */
 
-  --primary: oklch(0.57 0.1 246);
-  --primary-foreground: oklch(0.15 0.02 265);
+  --primary: oklch(0.75 0.18 25); /* #FF8787 */
+  --primary-foreground: oklch(0.13 0.02 265); /* #0D1117 */
 
-  --secondary: oklch(0.3 0.02 265);
-  --secondary-foreground: oklch(0.99 0.002 265);
+  --secondary: oklch(0.25 0.05 30); /* #3E2723 */
+  --secondary-foreground: oklch(0.96 0.002 265); /* #F0F6FC */
 
-  --accent: oklch(0.35 0.02 265);
-  --accent-foreground: oklch(0.99 0.002 265);
+  --accent: oklch(0.3 0.06 20); /* #4A3C38 */
+  --accent-foreground: oklch(0.96 0.002 265); /* #F0F6FC */
 
-  --muted: oklch(0.3 0.02 265);
-  --muted-foreground: oklch(0.6 0.02 265);
+  --muted: oklch(0.2 0.02 265); /* #161B22 */
+  --muted-foreground: oklch(0.6 0.02 265); /* #8B949E */
 
-  --destructive: oklch(0.4 0.2 25);
-  --destructive-foreground: oklch(1 0 0);
+  --destructive: oklch(0.5 0.2 25); /* #F85149 */
+  --destructive-foreground: oklch(0.96 0 0); /* #F0F6FC */
 
-  --border: oklch(0.3 0.02 265);
-  --input: oklch(0.3 0.02 265);
-  --ring: oklch(0.5 0.03 265);
+  --border: oklch(0.25 0.02 265); /* #30363D */
+  --input: oklch(0.18 0.02 265); /* #1A1F27 */
+  --ring: oklch(0.75 0.18 25); /* #FF8787 */
 
-  --card: var(--background);
-  --card-foreground: var(--foreground);
-  --popover: var(--background);
-  --popover-foreground: var(--foreground);
+  --card: oklch(0.15 0.02 265); /* #1C2128 */
+  --card-foreground: oklch(0.96 0.002 265); /* #F0F6FC */
+  --popover: oklch(0.15 0.02 265); /* #1C2128 */
+  --popover-foreground: oklch(0.96 0.002 265); /* #F0F6FC */
 
-  --chart-1: oklch(0.5 0.1 265);
-  --chart-2: oklch(0.6 0.1 180);
-  --chart-3: oklch(0.4 0.1 250);
-  --chart-4: oklch(0.7 0.15 90);
-  --chart-5: oklch(0.6 0.15 70);
+  /* Chart colors với theme hồng cam dark */
+  --chart-1: oklch(0.75 0.18 25); /* #FF8787 */
+  --chart-2: oklch(0.7 0.16 45); /* #FFAB40 */
+  --chart-3: oklch(0.68 0.15 15); /* #FF7B85 */
+  --chart-4: oklch(0.82 0.13 55); /* #FFD54F */
+  --chart-5: oklch(0.72 0.1 35); /* #FF8A65 */
 
-  --sidebar: var(--primary);
-  --sidebar-foreground: var(--primary-foreground);
-  --sidebar-primary: oklch(0.5 0.1 265);
-  --sidebar-primary-foreground: oklch(0.99 0.002 265);
-  --sidebar-accent: var(--accent);
-  --sidebar-accent-foreground: var(--accent-foreground);
-  --sidebar-border: var(--border);
-  --sidebar-ring: var(--ring);
+  --sidebar: oklch(0.18 0.04 20); /* #2B1F1C */
+  --sidebar-foreground: oklch(0.96 0.002 265); /* #F0F6FC */
+  --sidebar-primary: oklch(0.75 0.18 25); /* #FF8787 */
+  --sidebar-primary-foreground: oklch(0.13 0.02 265); /* #0D1117 */
+  --sidebar-accent: oklch(0.3 0.06 20); /* #4A3C38 */
+  --sidebar-accent-foreground: oklch(0.96 0.002 265); /* #F0F6FC */
+  --sidebar-border: oklch(0.3 0.04 20); /* #3E2C28 */
+  --sidebar-ring: oklch(0.75 0.18 25); /* #FF8787 */
 }
 
 
@@ -213,6 +148,91 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Button gradient styles cho theme hồng cam */
+@layer components {
+  /* Primary button với gradient mặc định */
+  .btn-primary,
+  [data-variant="default"],
+  button.bg-primary {
+    background: linear-gradient(to bottom, oklch(0.7 0.22 20), oklch(0.65 0.25 10)) !important;
+    @apply transition-all duration-300 shadow-lg hover:shadow-xl;
+  }
+  
+  .btn-primary:hover,
+  [data-variant="default"]:hover,
+  button.bg-primary:hover {
+    background: linear-gradient(to bottom, oklch(0.65 0.25 15), oklch(0.6 0.28 5)) !important;
+  }
+  
+  /* Dark mode gradient */
+  .dark .btn-primary,
+  .dark [data-variant="default"],
+  .dark button.bg-primary {
+    background: linear-gradient(to bottom, oklch(0.75 0.18 25), oklch(0.7 0.22 15)) !important;
+  }
+  
+  .dark .btn-primary:hover,
+  .dark [data-variant="default"]:hover,
+  .dark button.bg-primary:hover {
+    background: linear-gradient(to bottom, oklch(0.7 0.22 20), oklch(0.65 0.25 10)) !important;
+  }
+  
+  /* Gradient subtle */
+  .btn-gradient-subtle {
+    background: linear-gradient(to bottom, oklch(0.7 0.22 20 / 0.9), oklch(0.7 0.22 20));
+    @apply transition-all duration-300;
+  }
+  
+  .btn-gradient-subtle:hover {
+    background: linear-gradient(to bottom, oklch(0.7 0.22 20), oklch(0.7 0.22 20 / 0.9));
+  }
+}
+
+/* Additional gradient utilities */
+@layer utilities {
+  .gradient-primary {
+    background: linear-gradient(to bottom right, oklch(0.7 0.22 20), oklch(0.65 0.25 10));
+  }
+  
+  .gradient-text {
+    background: linear-gradient(to right, oklch(0.7 0.22 20), oklch(0.91 0.09 15));
+    -webkit-background-clip: text;
+    background-clip: text;
+    @apply text-transparent;
+  }
+  
+  .gradient-border {
+    @apply relative;
+  }
+  
+  .gradient-border::before {
+    content: "";
+    @apply absolute inset-0 -z-10 rounded-[inherit] p-[1px];
+    background: linear-gradient(to bottom right, oklch(0.7 0.22 20), oklch(0.91 0.09 15));
+  }
+  
+  /* Dark mode gradients */
+  .dark .gradient-primary {
+    background: linear-gradient(to bottom right, oklch(0.75 0.18 25), oklch(0.7 0.22 15));
+  }
+  
+  .dark .gradient-text {
+    background: linear-gradient(to right, oklch(0.75 0.18 25), oklch(0.3 0.06 20));
+    -webkit-background-clip: text;
+    background-clip: text;
+    @apply text-transparent;
+  }
+  
+  .dark .gradient-border::before {
+    background: linear-gradient(to bottom right, oklch(0.75 0.18 25), oklch(0.3 0.06 20));
+  }
+}
+
+/* Smooth transitions */
+* {
+  @apply transition-colors duration-300;
 }
 
 button {
