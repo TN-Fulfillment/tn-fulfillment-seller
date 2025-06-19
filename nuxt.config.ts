@@ -25,7 +25,18 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()],
   },
 
-  modules: ["shadcn-nuxt", "@nuxtjs/color-mode", "@nuxtjs/i18n"],
+  modules: [
+    "shadcn-nuxt",
+    "@nuxtjs/color-mode",
+    "@nuxtjs/i18n",
+    "@nuxtjs/google-fonts",
+  ],
+  googleFonts: {
+    families: {
+      Roboto: [300, 400, 500, 600, 700, 800, 900],
+    },
+    display: "swap",
+  },
   colorMode: {
     classSuffix: "",
   },
